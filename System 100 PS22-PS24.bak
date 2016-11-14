@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:MySynthParts
+LIBS:System 100 PS22-PS24-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -747,9 +748,9 @@ Wire Wire Line
 	7350 950  7350 1150
 Connection ~ 7350 1150
 Wire Wire Line
-	6175 1150 6175 2025
-Wire Wire Line
-	8025 1250 6175 1250
-Wire Wire Line
-	6175 1250 6175 2725
+	6175 1150 6175 2725
+Text Notes 3200 6175 0    50   ~ 0
+0.5A FUSE for PS24 (220V)\nJUMPER for PS22 (110V)
+Text Notes 6550 6150 0    50   ~ 0
+0.5A FUSE for PS24 (220V)\nJUMPER for PS22 (110V)
 $EndSCHEMATC
