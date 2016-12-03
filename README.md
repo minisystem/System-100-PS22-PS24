@@ -6,11 +6,17 @@ Replaces Roland part # PS22 (110V) or PS24 (220V). I had a Model 102 come in tha
 ![image](/System 100 PS22-PS24.png?raw=true "PS22-PS24")
 
 EDA files generated in KiCad 4.0.2. Schematic library here: https://github.com/minisystem/MyKicadLibraries/blob/master/MySynthParts.lib
+
 KiCad GitHub libraries required as well. :/
 
+0.156" MTA header: Molex part # 0009652088
+trimmers: Bourns 3362P or equivalent
+
+There are large copper pours top and bottom that were intended to be used as heatsinks, but they are almost certainly inadequate. Use a large external heat sink for each power transistor. The orignal heatsinks will work fine.
+
+Mounting holes match original power supply.
+
 Hardware design by Minisystem: jeff@minisystem.ca 
-
-
 
 LICENSE
 =======
